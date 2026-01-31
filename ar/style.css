@@ -2133,3 +2133,36 @@ body {
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 768px) {
+    .sponsors-top-image {
+        width: 85% !important;
+        margin: 0 auto 1.5rem !important;
+    }
+    
+    .sponsors-top-image img {
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .sponsors-top-image {
+        width: 95% !important;
+        margin: 0 auto 1rem !important;
+    }
+    
+    .sponsors-top-image img {
+        height: 200px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .sponsors-top-image {
+        width: 100% !important;
+        border-radius: 12px !important;
+    }
+    
+    .sponsors-top-image img {
+        height: 180px !important;
+    }
+}
