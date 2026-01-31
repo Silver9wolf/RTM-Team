@@ -1,7 +1,7 @@
 // Site initialization and language settings
 document.addEventListener('DOMContentLoaded', function() {
     // Check saved language or use English as default
-    const savedLang = localStorage.getItem('ftc-team-lang') || 'en';
+    const savedLang = localStorage.getItem('ftc-team-lang') || 'Ar';
     document.documentElement.lang = savedLang;
     document.documentElement.dir = savedLang === 'ar' ? 'rtl' : 'ltr';
     
